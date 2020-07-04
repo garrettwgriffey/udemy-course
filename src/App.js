@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
+import Person from './Person/Person'
 
 
 class App extends Component {
@@ -8,6 +9,9 @@ class App extends Component {
       <div className="App">
         <h1>Hi, Im a React App</h1>
         <p>This is working!</p>
+        <Person />
+        <Person />
+        <Person />
       </div>
     )
   }
